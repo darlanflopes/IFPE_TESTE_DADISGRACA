@@ -1,7 +1,7 @@
 class Conta:
     def __init__(self, numero: str):
         self.numero = numero
-        self.saldo = 0.0  # Saldo inicial igual a zero
+        self.saldo = 0.0  # Saldo inicial igual a zero fsdfsdf
 
 
 class BancoService:
@@ -13,3 +13,4 @@ class BancoService:
             return False  # Conta já existe
         self.contas[numero] = Conta(numero)
         return True
+
